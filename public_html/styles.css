@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+#wrapper {
+    width: 90%;
+    margin: 15px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+/*    border: 1px solid #ddd;*/
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th {
+/*    background: #eee;*/
+}
+
+th,
+td {
+    padding: 7px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #ddd;
+}
+
+.week {
+    height: 50px;
+    background: #eee;
+}
+
+.sun {
+    background: #ffc0cb;
+}
+
+.sat {
+    background-color: #add8e6;
+}
+
+.youbi_0 {
+    color: red;
+}
+
+.youbi_6 {
+    color: blue;
+}
+
+.today {
+    font-weight: bold;
+}
+
+.gray {
+    color: #dedede;
+}
